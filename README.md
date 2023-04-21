@@ -7,10 +7,13 @@ Adds a property called “address” to each station. <br>
 
 Follow the steps to build the application:
 
-1. Build the docker image with the command: <br>
+1. Clone the git repo: <br>
+      **git clone https://github.com/TulasiMakam/citybike.git**
+
+2. Build the docker image with the command: <br>
       **docker build -t citybike .**
 
-2. Run the docker container with the command: <br>
+3. Run the docker container with the command: <br>
       **docker run citybike**
       
 The docker container runs a script and outputs the transformed data.
