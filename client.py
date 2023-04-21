@@ -21,6 +21,7 @@ async def fetch():
                     station['coordinates'] = coordinates
                     station.pop('longitude')
                     station.pop('latitude')
+                    station.pop('internal_id')
                     if station['status'] == 'aktiv':
                         station['active'] = True
                         station.pop('status')
